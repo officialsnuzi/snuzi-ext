@@ -1,0 +1,211 @@
+/* Blue and Teal Theme Override */
+:root {
+  --neon-red: #00BFFF; /* Changed from #00D1FF to a brighter blue */
+  --neon-red-glow: #00BFFF33; /* Updated glow color */
+  --cyber-red: #0066CC; /* Changed from #007BFF to a darker blue */
+  --cyber-pink: #00CED1; /* Changed from #00FFA3 to teal */
+  --cyber-dark: #001122; /* Changed from #120012 to a dark blue */
+}
+
+/* Override specific color classes for blue/teal theme */
+.text-cyber-pink {
+  color: #00CED1 !important; /* Teal */
+}
+
+.text-cyber-pink\/50 {
+  color: #00CED180 !important; /* Teal with 50% opacity */
+}
+
+.text-cyber-pink\/70 {
+  color: #00CED1b3 !important; /* Teal with 70% opacity */
+}
+
+.text-neon-red {
+  color: #00BFFF !important; /* Bright blue */
+}
+
+.bg-cyber-pink {
+  background-color: #00CED1 !important; /* Teal */
+}
+
+.bg-cyber-pink\/10 {
+  background-color: #00CED11a !important; /* Teal with 10% opacity */
+}
+
+.bg-cyber-pink\/20 {
+  background-color: #00CED133 !important; /* Teal with 20% opacity */
+}
+
+.bg-cyber-red {
+  background-color: #0066CC !important; /* Dark blue */
+}
+
+.border-cyber-pink {
+  border-color: #00CED1 !important; /* Teal */
+}
+
+.border-cyber-pink\/10 {
+  border-color: #00CED11a !important; /* Teal with 10% opacity */
+}
+
+.border-cyber-pink\/20 {
+  border-color: #00CED133 !important; /* Teal with 20% opacity */
+}
+
+.border-cyber-pink\/30 {
+  border-color: #00CED14d !important; /* Teal with 30% opacity */
+}
+
+.border-cyber-red {
+  border-color: #0066CC !important; /* Dark blue */
+}
+
+.border-t-cyber-pink {
+  border-top-color: #00CED1 !important; /* Teal */
+}
+
+/* Update gradient classes */
+.from-cyber-red {
+  --tw-gradient-from: #0066CC var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 102 204 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-cyber-red\/20 {
+  --tw-gradient-from: rgb(0 102 204 / .2) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 102 204 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-neon-red\/10 {
+  --tw-gradient-from: rgb(0 191 255 / .1) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 191 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-cyber-pink\/30 {
+  --tw-gradient-to: rgb(0 206 209 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 206 209 / .3) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-cyber-pink {
+  --tw-gradient-to: #00CED1 var(--tw-gradient-to-position);
+}
+
+.to-cyber-pink\/20 {
+  --tw-gradient-to: rgb(0 206 209 / .2) var(--tw-gradient-to-position);
+}
+
+.to-neon-pink\/10 {
+  --tw-gradient-to: rgb(0 206 209 / .1) var(--tw-gradient-to-position);
+}
+
+/* Update hover states */
+.hover\:border-cyber-pink\/50:hover {
+  border-color: #00CED180 !important; /* Teal with 50% opacity */
+}
+
+.hover\:bg-cyber-pink\/90:hover {
+  background-color: #00CED1e6 !important; /* Teal with 90% opacity */
+}
+
+.hover\:text-cyber-pink:hover {
+  color: #00CED1 !important; /* Teal */
+}
+
+.hover\:text-cyber-pink\/70:hover {
+  color: #00CED1b3 !important; /* Teal with 70% opacity */
+}
+
+.hover\:text-neon-pink:hover {
+  color: #00CED1 !important; /* Teal */
+}
+
+.hover\:text-neon-red:hover {
+  color: #00BFFF !important; /* Bright blue */
+}
+
+/* Update focus states */
+.focus\:border-cyber-pink:focus {
+  border-color: #00CED1 !important; /* Teal */
+}
+
+/* Update scrollbar colors */
+::-webkit-scrollbar-thumb {
+  background: #00BFFF !important; /* Bright blue */
+  box-shadow: 0 0 5px #00BFFF !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00CED1 !important; /* Teal */
+}
+
+/* Update neon text effect */
+.neon-text {
+  color: #00CED1 !important; /* Teal */
+  text-shadow: 0 0 2px #00CED1, 0 0 4px #00CED1 !important;
+}
+
+/* Update cyber card effects */
+.cyber-card {
+  border-color: #00CED133 !important; /* Teal with 20% opacity */
+  box-shadow: 0 0 5px #00BFFF33, inset 0 0 10px #00BFFF33 !important;
+}
+
+.cyber-card:hover {
+  border-color: #00CED14d !important; /* Teal with 30% opacity */
+}
+
+.cyber-card:before {
+  background: linear-gradient(90deg, transparent, rgba(0, 206, 209, 0.1), transparent) !important;
+}
+
+/* Update cyber input effects */
+.cyber-input {
+  border-color: #00CED133 !important; /* Teal with 20% opacity */
+  box-shadow: 0 0 5px #00BFFF33, inset 0 0 5px #00BFFF33 !important;
+}
+
+.cyber-input:focus {
+  border-color: #00CED166 !important; /* Teal with 40% opacity */
+}
+
+/* Update cyber button effects */
+.cyber-button {
+  background: linear-gradient(45deg, #0066CC, #00CED1) !important; /* Dark blue to teal */
+  box-shadow: 0 0 5px #00BFFF33, inset 0 0 3px #00BFFF33 !important;
+}
+
+.cyber-button:hover:not(:disabled) {
+  box-shadow: 0 0 8px #00BFFF33, inset 0 0 5px #00BFFF33 !important;
+}
+
+/* Update cyber grid */
+.cyber-grid {
+  background-image: linear-gradient(#00CED1 / 10% 1px, transparent 1px), linear-gradient(90deg, #00CED1 / 10% 1px, transparent 1px) !important;
+}
+
+/* Update cyber border */
+.cyber-border:before {
+  background: linear-gradient(45deg, #0066CC, #00CED1) !important; /* Dark blue to teal */
+}
+
+/* Update scanline effect */
+.scanline:after {
+  background: linear-gradient(90deg, transparent, #00CED1, transparent) !important;
+}
+
+/* Update background gradient */
+#root {
+  background: linear-gradient(135deg, #001122 0%, #001833 100%) !important; /* Dark blue gradient */
+}
+
+/* Update body background */
+html, body {
+  background: #001122 !important; /* Dark blue */
+}
+
+/* Update matrix background */
+.matrix-bg:before {
+  background: linear-gradient(rgba(0, 17, 34, 0.8), rgba(0, 17, 34, 0.8)), url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='15' font-family='monospace' font-size='20' fill='%2300CED1'>.</text%3E%3C/svg%3E") !important;
+} 
