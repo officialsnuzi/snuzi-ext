@@ -1,4 +1,4 @@
-1 Extract the ZIP file Download and extract the specra-ext.zip file to a folder on your computer. Remember this location as you'll need it in the next step.
+1 Extract the ZIP file Download and extract the snuzi-ext.zip file to a folder on your computer. Remember this location as you'll need it in the next step.
 
 2 Open Chrome Extensions Open Google Chrome and navigate to:
 
